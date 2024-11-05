@@ -31,7 +31,7 @@ void main (){
       ));
 
   // Create quiz manager with the pre-populated quiz
-  Q manager = Quizzmanager()..quizzes.add(programmingQuiz);
+  Quizzmanager manager = Quizzmanager()..quizzes.add(programmingQuiz);
   print('Welcome to the Quiz Management System!');
   manager.showMenus();
 }
